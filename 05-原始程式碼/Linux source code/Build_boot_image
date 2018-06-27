@@ -1,0 +1,45 @@
+PATH=/opt/Xilinx/SDK/2017.2/gnu/arm/lin/bin:/home/user/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+export CROSS_COMPILE=arm-xilinx-linux-gnueabi-
+
+echo $PATH
+echo $CROSS_COMPILE
+
+##clear file :
+
+make distclean
+
+make clean
+
+---- make driver ------------------------------------------------------------------------
+--------------------------------------------------------
+obj-m += ip.o
+all:
+	make -C /home/xdc/linux-xlnx M=$(PWD) modules
+clean:
+	make -C /home/xdc/linux-xlnx M=$(PWD) clean
+--------------------------------------------------------
+make ARCH=arm CROSS_COMPILE=arm-xilinx-linux-gnueabi-
+
+make clean
+
+---- .out -------------------------------------------------------------------------------
+source /opt/Xilinx/Vivado/2017.2/settings64.sh
+
+arm-xilinx-linux-gnueabi-gcc  file_name.c
+
+
+----- bin -------------------------------------------------------------------------------
+source /opt/Xilinx/Vivado/2017.2/settings64.sh
+
+bootgen -image boot.bif -o i boot.bin
+
+--- device tree -------------------------------------------------------------------------
+sudo apt-get install device-tree-compiler
+
+dtc -I dts -O dtb -o devicetree.dtb zynq-zed.dts
+
+---- ramdisk ---------------------------------------------------------------------------
+mkimage -A arm -T ramdisk -C gzip -d ramdisk.image.gz \ uramdisk.image.gz
+
+

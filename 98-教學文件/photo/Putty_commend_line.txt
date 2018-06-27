@@ -1,0 +1,38 @@
+Putty Baud Rate: 115200
+COM Port : to see "My Computer -> Right Click -> Properties -> Hardware -> Device Manager"
+
+
+#set up Ethernet (here is local network)
+ifconfig eth0 192.168.1.5 netmask 255.255.255.0
+route add default gw 192.168.1.1
+ifconfig lo 127.0.0.1
+route add default gw 192.168.1.1 netmask 255.255.255.0
+
+
+
+#install driver
+mount -a
+mkdir /lib/modules/$(uname -r)
+cd /lib/modules/4.9.0-xilinx-00027-g9c2e29b
+cp /mnt/ip_Bram.ko .
+insmod ip_Bram.ko
+cd ..
+cd ..
+cd ..
+cd ..
+
+mknod /dev/IP-Driver c 245 0
+cd mnt
+date --set="2018-06-27 21:59"
+
+
+#start send image to Raspberry Pi 1server
+
+./socket_client_break.out 10
+
+./socket_client_series.out 10
+
+
+#test
+
+./test_socket_send_720x480_picture.out

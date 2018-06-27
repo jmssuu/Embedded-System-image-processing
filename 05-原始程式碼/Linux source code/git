@@ -1,0 +1,21 @@
+git config --global user.name "u0452027"
+git config --global user.email "u0452027@gslab.edu.tw"
+
+git init
+git remote add origin http://78.65.83.168:30000/u0452027/Embedded_Linux_driver.git
+git add .
+git status
+git commit -m "driver_design"
+git push -u origin master
+
+
+
+
+git status
+(查看暫存區檔案-要上傳的檔案-，與非暫存區檔案)
+
+git reset head  (將暫存區的所有檔案移除)
+
+
++++++
+

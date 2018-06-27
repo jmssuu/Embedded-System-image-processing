@@ -1,0 +1,5 @@
+image : {
+	[bootloader]fsbl_try.elf
+	main_code.bit
+	u-boot.elf
+}

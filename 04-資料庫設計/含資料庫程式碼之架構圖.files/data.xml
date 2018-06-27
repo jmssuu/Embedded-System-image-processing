@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="頁-1" NameU="Page-1">
+			<PageProps>
+				<PageScale Unit="MM">0.039370078740157</PageScale>
+				<DrawingScale Unit="MM">0.039370078740157</DrawingScale>
+			</PageProps>
+			<Layer IX="0">
+				<Name>連接器</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Layer IX="1">
+				<Name>容器</Name>
+				<NameUniv>Container</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="77" UniqueID="{DF715B62-F754-4260-96C3-5819A3A871A7}" Name="傳統" NameU="Classic" Master="27">
+					<Text>FPGA</Text>
+					<XForm>
+						<PinX Unit="MM">11.464758410538385</PinX>
+						<PinY Unit="MM">11.943241905027461</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="348" UniqueID="{2796C73C-970F-4018-A1FE-D5032980C5AF}" Name="一般.2" NameU="Plain" Master="26">
+					<Text>FPGA video</Text>
+					<XForm>
+						<PinX Unit="MM">7.589332576848088</PinX>
+						<PinY Unit="MM">12.327755905511811</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="523" UniqueID="{92129C67-D41A-49A1-86C3-3088334A8D91}" Name="傳統.523" NameU="Classic.523" Master="27">
+					<Text>Linux</Text>
+					<XForm>
+						<PinX Unit="MM">8.612915771056546</PinX>
+						<PinY Unit="MM">4.620078740157481</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="579" UniqueID="{07D9B513-71CD-47E0-9864-AC36C36A43CF}" Name="傳統.579" NameU="Classic.579" Master="27">
+					<Text>Raspberry Pi 3</Text>
+					<XForm>
+						<PinX Unit="MM">15.610947267119531</PinX>
+						<PinY Unit="MM">4.620078740157481</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="696" UniqueID="{F215AF93-2441-497E-975E-A95717874EAD}" Name="一般.696" NameU="Plain.696" Master="26">
+					<Text>system</Text>
+					<XForm>
+						<PinX Unit="MM">14.652805113858268</PinX>
+						<PinY Unit="MM">11.826421980880333</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="246" UniqueID="{AF7EC36C-4480-4816-8A6F-C9EA17792DD9}" Name="矩形.246" NameU="Rectangle.246" Master="2">
+					<Text>Camera</Text>
+					<XForm>
+						<PinX Unit="MM">2.099136243497487</PinX>
+						<PinY Unit="MM">12.879758485077753</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="247" UniqueID="{BE909A6A-551C-4D02-8AB5-B37950A07F61}" Name="矩形.247" NameU="Rectangle.247" Master="2">
+					<Text>Display</Text>
+					<XForm>
+						<PinX Unit="MM">7.589293723812443</PinX>
+						<PinY Unit="MM">8.132381889763781</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>git指令.txt</HLURL:Description>
+										<HLURL:Address>../git指令.txt</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="266" UniqueID="{527628B3-02B9-49F4-9170-749A0823774E}" Name="實體.266" NameU="Entity.266" Master="33">
+					<Text>soobel</Text>
+					<XForm>
+						<PinX Unit="MM">9.193456074568770</PinX>
+						<PinY Unit="MM">13.337946480699898</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="269" UniqueID="{DF34C146-1B6F-4482-A44C-539B5EAF376E}" Name="Sheet.269" NameU="Sheet.269">
+					<Text>表格</Text>
+					<XForm>
+						<PinX Unit="MM">9.193456074568770</PinX>
+						<PinY Unit="MM">13.761605896390002</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="270" UniqueID="{3B59F5BF-F8C9-4CAA-A220-BB12E5D2046E}" Name="主索引鍵屬性.270" NameU="Primary Key Attribute.270" Master="29">
+					<Text>sobel</Text>
+					<XForm>
+						<PinX Unit="MM">9.193456074568768</PinX>
+						<PinY Unit="MM">13.103200275734611</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="271" UniqueID="{6309A4EB-03A6-4039-8938-2BDCA2C94D60}" Name="Sheet.271" NameU="Sheet.271">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">10.599213949568767</PinX>
+						<PinY Unit="MM">13.103200275734611</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="272" UniqueID="{3C96266C-99F7-4A67-91D7-381116C17DD0}" Name="Sheet.272" NameU="Sheet.272">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">8.260139144450658</PinX>
+						<PinY Unit="MM">13.103200275734611</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="274" UniqueID="{EA51C096-BA08-4780-B66B-122223AFA429}" Name="主索引鍵分隔符號.274" NameU="Primary Key Separator.274" Master="30">
+					<XForm>
+						<PinX Unit="MM">9.193456074568768</PinX>
+						<PinY Unit="MM">12.914287065014127</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="304" UniqueID="{EBF1F131-14B3-4D07-B5C7-90D07C9A6193}" Name="實體.304" NameU="Entity.304" Master="33">
+					<Text>video_in</Text>
+					<XForm>
+						<PinX Unit="MM">5.985209079127411</PinX>
+						<PinY Unit="MM">11.341061043103274</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="307" UniqueID="{DEEBE75E-C6E7-456B-9C61-BE97FFDE1577}" Name="Sheet.307" NameU="Sheet.307">
+					<Text>表格</Text>
+					<XForm>
+						<PinX Unit="MM">5.985209079127411</PinX>
+						<PinY Unit="MM">11.764720458793377</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="308" UniqueID="{B16F0DAD-D8DF-4E96-893D-3734C5DE1CA9}" Name="主索引鍵屬性.308" NameU="Primary Key Attribute.308" Master="29">
+					<Text>VGA_count</Text>
+					<XForm>
+						<PinX Unit="MM">5.985209079127412</PinX>
+						<PinY Unit="MM">11.106314838137985</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="309" UniqueID="{942C97F5-F6FB-40B1-AFBD-B40406CD24EA}" Name="Sheet.309" NameU="Sheet.309">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">7.390966954127411</PinX>
+						<PinY Unit="MM">11.106314838137985</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="310" UniqueID="{4FE56296-64E9-4FE2-AF5F-7AE42FD9003E}" Name="Sheet.310" NameU="Sheet.310">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">5.051892149009301</PinX>
+						<PinY Unit="MM">11.106314838137985</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="311" UniqueID="{F15EA190-2BE0-4D23-BDFD-92293CC7C84D}" Name="主索引鍵分隔符號.311" NameU="Primary Key Separator.311" Master="30">
+					<XForm>
+						<PinX Unit="MM">5.985209079127412</PinX>
+						<PinY Unit="MM">10.917401627417501</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="316" UniqueID="{64A8E334-94B3-4714-A709-7DA4EF7E36CB}" Name="實體.316" NameU="Entity.316" Master="33">
+					<Text>video_in</Text>
+					<XForm>
+						<PinX Unit="MM">5.985209079127413</PinX>
+						<PinY Unit="MM">12.921231509454232</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="319" UniqueID="{D8E2043C-E5BE-41E6-9E1F-512FA0780BFB}" Name="Sheet.319" NameU="Sheet.319">
+					<Text>表格</Text>
+					<XForm>
+						<PinX Unit="MM">5.985209079127413</PinX>
+						<PinY Unit="MM">13.761605896389995</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="320" UniqueID="{437B7253-514C-4DFE-B2CD-1A64ECB8EFC9}" Name="主索引鍵屬性.320" NameU="Primary Key Attribute.320" Master="29">
+					<Text>videoin</Text>
+					<XForm>
+						<PinX Unit="MM">5.985209079127413</PinX>
+						<PinY Unit="MM">13.103200275734610</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="321" UniqueID="{40C395AC-0C95-439B-93A8-8B3247CB1E3F}" Name="Sheet.321" NameU="Sheet.321">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">7.390966954127413</PinX>
+						<PinY Unit="MM">13.103200275734610</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="322" UniqueID="{118A92E2-5A2B-4140-97A5-E94CC38E928B}" Name="Sheet.322" NameU="Sheet.322">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">5.051892149009303</PinX>
+						<PinY Unit="MM">13.103200275734610</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="323" UniqueID="{732F8536-6362-45CF-8E68-ADF4CE4E427A}" Name="主索引鍵分隔符號.323" NameU="Primary Key Separator.323" Master="30">
+					<XForm>
+						<PinX Unit="MM">5.985209079127413</PinX>
+						<PinY Unit="MM">12.914287065014125</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="324" UniqueID="{6F518F77-290A-40B8-886C-2F4FE556CC47}" Name="屬性.324" NameU="Attribute.324" Master="31">
+					<Text>SAV_EAV</Text>
+					<XForm>
+						<PinX Unit="MM">5.985209079127413</PinX>
+						<PinY Unit="MM">12.725373854293641</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="325" UniqueID="{8FD1882B-5FDE-4CB0-914C-58B742108832}" Name="Sheet.325" NameU="Sheet.325">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">7.390966954127413</PinX>
+						<PinY Unit="MM">12.725373854293641</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="326" UniqueID="{FEB4788B-330A-4A98-847D-B02130644C1F}" Name="Sheet.326" NameU="Sheet.326">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">5.051892149009303</PinX>
+						<PinY Unit="MM">12.725373854293641</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="327" UniqueID="{A1C5D6B5-EDCE-4713-B755-D2B69D00D92C}" Name="Sheet.327" NameU="Sheet.327">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="MM">4.579451204127413</PinX>
+						<PinY Unit="MM">12.725373854293641</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="353" UniqueID="{3DC7376F-14A4-483A-8D3A-6CEA74611E27}" Name="動態連接器.353" NameU="Dynamic connector.353" Master="8">
+					<XForm>
+						<PinX Unit="MM">3.615239798317099</PinX>
+						<PinY Unit="MM">12.900494997265993</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="354" UniqueID="{1A6C6578-A35C-484E-B78B-AFEFD684B3CC}" Name="動態連接器.354" NameU="Dynamic connector.354" Master="8">
+					<XForm>
+						<PinX Unit="MM">7.589313150330265</PinX>
+						<PinY Unit="MM">9.406106500623897</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="403" UniqueID="{1269E02D-36BE-409A-9DE8-B41599E96E8E}" Name="實體.403" NameU="Entity.403" Master="33">
+					<Text>myip_axis_to_vdma</Text>
+					<XForm>
+						<PinX Unit="MM">14.652805115157481</PinX>
+						<PinY Unit="MM">13.577320606520715</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="406" UniqueID="{F359FE05-2AF3-4BDC-B46A-08B90E38ACA6}" Name="Sheet.406" NameU="Sheet.406">
+					<Text>表格</Text>
+					<XForm>
+						<PinX Unit="MM">14.652805115157481</PinX>
+						<PinY Unit="MM">14.173228346456696</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="407" UniqueID="{31E9A25B-FD90-4845-9A98-846178F493A3}" Name="主索引鍵屬性.407" NameU="Primary Key Attribute.407" Master="29">
+					<Text>myip_axis_to_vdma_v1_0</Text>
+					<XForm>
+						<PinX Unit="MM">14.652805115157474</PinX>
+						<PinY Unit="MM">13.548152498746193</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="408" UniqueID="{AA72BF97-C79D-40FE-9870-C68A90AE588E}" Name="Sheet.408" NameU="Sheet.408">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">16.058562990157476</PinX>
+						<PinY Unit="MM">13.548152498746193</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="409" UniqueID="{EEEBA21C-BCA9-4370-BFD7-27E1A1D9B192}" Name="Sheet.409" NameU="Sheet.409">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">13.719488185039364</PinX>
+						<PinY Unit="MM">13.548152498746193</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="410" UniqueID="{3FB44E84-6BEB-4741-97DC-76DFCFE20180}" Name="主索引鍵分隔符號.410" NameU="Primary Key Separator.410" Master="30">
+					<XForm>
+						<PinX Unit="MM">14.652805115157474</PinX>
+						<PinY Unit="MM">13.359239288025705</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="411" UniqueID="{E59FABAE-8969-4DAF-A78A-25FB6E4C668D}" Name="屬性.411" NameU="Attribute.411" Master="31">
+					<Text>myip_axis_to_vdma_v1_0_M00_AXIS</Text>
+					<XForm>
+						<PinX Unit="MM">14.652805115157474</PinX>
+						<PinY Unit="MM">13.170326077305221</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="412" UniqueID="{E2CFDE53-E87B-41E4-BB85-79A35B4F60AB}" Name="Sheet.412" NameU="Sheet.412">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">16.058562990157476</PinX>
+						<PinY Unit="MM">13.170326077305221</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="413" UniqueID="{9BC84A13-05D8-4ED8-A96B-9E8365029165}" Name="Sheet.413" NameU="Sheet.413">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">13.719488185039364</PinX>
+						<PinY Unit="MM">13.170326077305221</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="414" UniqueID="{CBCFE04C-FE69-43A4-8B44-851767BD8B96}" Name="Sheet.414" NameU="Sheet.414">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="MM">13.247047240157475</PinX>
+						<PinY Unit="MM">13.170326077305221</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="431" UniqueID="{6035A3F6-BF59-467D-8E45-9C7A85755B81}" Name="實體.431" NameU="Entity.431" Master="33">
+					<Text>axi_vdma</Text>
+					<XForm>
+						<PinX Unit="MM">14.652805115157625</PinX>
+						<PinY Unit="MM">11.860911507914446</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="434" UniqueID="{8838BC09-AC86-4DD0-A33D-894D188771EF}" Name="Sheet.434" NameU="Sheet.434">
+					<Text>表格</Text>
+					<XForm>
+						<PinX Unit="MM">14.652805115157625</PinX>
+						<PinY Unit="MM">12.078992826409516</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="438" UniqueID="{B37043AA-4059-4425-A6E0-18B56A098721}" Name="主索引鍵分隔符號.438" NameU="Primary Key Separator.438" Master="30">
+					<XForm>
+						<PinX Unit="MM">14.652805115157623</PinX>
+						<PinY Unit="MM">11.642830189419673</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="443" UniqueID="{B08B1D0D-45FF-41CD-9AB5-C91E89AD0C87}" Name="實體.443" NameU="Entity.443" Master="33">
+					<Text>i2c</Text>
+					<XForm>
+						<PinX Unit="MM">9.193456074568770</PinX>
+						<PinY Unit="MM">11.513309367349153</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="446" UniqueID="{51E583FC-6CC0-447B-BFF0-3F4F5EA05926}" Name="Sheet.446" NameU="Sheet.446">
+					<Text>表格</Text>
+					<XForm>
+						<PinX Unit="MM">9.193456074568770</PinX>
+						<PinY Unit="MM">11.731390685844163</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="450" UniqueID="{081D912A-B12C-4A2B-BE8B-9C08B1F92BB6}" Name="主索引鍵分隔符號.450" NameU="Primary Key Separator.450" Master="30">
+					<XForm>
+						<PinX Unit="MM">9.193456074568772</PinX>
+						<PinY Unit="MM">11.295228048854145</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="503" UniqueID="{83FE66D6-11BB-4831-8937-00445772A569}" Name="實體.503" NameU="Entity.503" Master="33">
+					<Text>myip_vdma_axis_mm2s</Text>
+					<XForm>
+						<PinX Unit="MM">14.652805113858268</PinX>
+						<PinY Unit="MM">9.948994407103710</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="506" UniqueID="{AB0AAED2-F012-4654-B0A6-CBB86676BEC7}" Name="Sheet.506" NameU="Sheet.506">
+					<Text>表格</Text>
+					<XForm>
+						<PinX Unit="MM">14.652805113858268</PinX>
+						<PinY Unit="MM">10.772703907564866</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="507" UniqueID="{24BED98D-298D-4896-9FB1-4507911264EB}" Name="主索引鍵屬性.507" NameU="Primary Key Attribute.507" Master="29">
+					<Text>myip_vdma_axis_mm2s_v1_0</Text>
+					<XForm>
+						<PinX Unit="MM">14.652805113858264</PinX>
+						<PinY Unit="MM">10.147628059854362</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="508" UniqueID="{4268F9E6-2261-4F58-B6D1-A7516258D133}" Name="Sheet.508" NameU="Sheet.508">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">16.255413383858265</PinX>
+						<PinY Unit="MM">10.147628059854362</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="509" UniqueID="{D0E8038B-461A-4962-AF00-3DB32D5DD0D8}" Name="Sheet.509" NameU="Sheet.509">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">13.522637788740154</PinX>
+						<PinY Unit="MM">10.147628059854362</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="510" UniqueID="{0AADA4E7-1D0F-4262-882F-C6947298F1FB}" Name="主索引鍵分隔符號.510" NameU="Primary Key Separator.510" Master="30">
+					<XForm>
+						<PinX Unit="MM">14.652805113858264</PinX>
+						<PinY Unit="MM">9.503111328083529</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="511" UniqueID="{DFE099A3-2D4A-4455-A3A6-4A7C07180617}" Name="屬性.511" NameU="Attribute.511" Master="31">
+					<Text>VGA_count</Text>
+					<XForm>
+						<PinX Unit="MM">14.652805113858264</PinX>
+						<PinY Unit="MM">9.314198117363041</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="512" UniqueID="{43C3EAAD-57AE-4573-ADF2-34C1EF158A8C}" Name="Sheet.512" NameU="Sheet.512">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">16.255413383858265</PinX>
+						<PinY Unit="MM">9.314198117363041</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="513" UniqueID="{7B9DFF68-737D-456B-99A9-34F15B6561A4}" Name="Sheet.513" NameU="Sheet.513">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">13.522637788740154</PinX>
+						<PinY Unit="MM">9.314198117363041</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="514" UniqueID="{10FEC45F-F49E-4449-8F27-42E15C8CD99C}" Name="Sheet.514" NameU="Sheet.514">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="MM">13.050196843858265</PinX>
+						<PinY Unit="MM">9.314198117363041</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="515" UniqueID="{F60B5A4A-D17E-4C65-8149-BCA581DA83AD}" Name="主索引鍵屬性.515" NameU="Primary Key Attribute.515" Master="29">
+					<Text>myip_vdma_axis_mm2s_v1_0_S00_AXIS</Text>
+					<XForm>
+						<PinX Unit="MM">14.652805113858264</PinX>
+						<PinY Unit="MM">9.730913088608700</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="516" UniqueID="{EF917D6F-6947-42E1-B640-3E86CF7F484D}" Name="Sheet.516" NameU="Sheet.516">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">16.255413383858265</PinX>
+						<PinY Unit="MM">9.730913088608700</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="517" UniqueID="{C32A9DA3-647A-4E98-8144-64D78C28B3E0}" Name="Sheet.517" NameU="Sheet.517">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">13.522637788740154</PinX>
+						<PinY Unit="MM">9.730913088608700</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="529" UniqueID="{882E1E07-CF2F-4742-AD9B-B6D62231D9EC}" Name="主索引鍵分隔符號.529" NameU="Primary Key Separator.529" Master="30">
+					<XForm>
+						<PinX Unit="MM">14.652805113858264</PinX>
+						<PinY Unit="MM">9.958714849133877</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="531" UniqueID="{EF0CB32C-0EAD-46DC-A4B6-2EB09287AEE5}" Name="實體.531" NameU="Entity.531" Master="33">
+					<Text>ip.c</Text>
+					<XForm>
+						<PinX Unit="MM">7.982994511214017</PinX>
+						<PinY Unit="MM">5.610168033491059</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="534" UniqueID="{1B08C31F-A631-49FE-954E-520B262119F4}" Name="Sheet.534" NameU="Sheet.534">
+					<Text>表格</Text>
+					<XForm>
+						<PinX Unit="MM">7.982994511214017</PinX>
+						<PinY Unit="MM">6.633904483686370</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="535" UniqueID="{BA5927C8-684F-4FED-803C-1C8847FA332D}" Name="主索引鍵屬性.535" NameU="Primary Key Attribute.535" Master="29">
+					<Text>IP_setup_cdev</Text>
+					<XForm>
+						<PinX Unit="MM">7.982994511214017</PinX>
+						<PinY Unit="MM">6.019938560292273</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="536" UniqueID="{B9C51D02-29A0-4C59-A7C6-F355BC19BD41}" Name="Sheet.536" NameU="Sheet.536">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">9.388752386214016</PinX>
+						<PinY Unit="MM">6.019938560292273</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="537" UniqueID="{B26FA177-F887-4C69-B117-A109BF909B3A}" Name="Sheet.537" NameU="Sheet.537">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">7.049677581095907</PinX>
+						<PinY Unit="MM">6.019938560292273</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="538" UniqueID="{B45BC85E-9AEC-46AD-92B4-AB894E1EE0AC}" Name="主索引鍵分隔符號.538" NameU="Primary Key Separator.538" Master="30">
+					<XForm>
+						<PinX Unit="MM">7.982994511214017</PinX>
+						<PinY Unit="MM">5.419861525787065</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="539" UniqueID="{BFF6AADC-89A3-405E-938B-ED0A43EFB030}" Name="屬性.539" NameU="Attribute.539" Master="31">
+					<Text>IP_setup_cdev</Text>
+					<XForm>
+						<PinX Unit="MM">7.982994511214017</PinX>
+						<PinY Unit="MM">5.230948315066581</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="540" UniqueID="{27789D0D-C8A2-4CE7-8BC4-65A847E6CFD0}" Name="Sheet.540" NameU="Sheet.540">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">9.388752386214016</PinX>
+						<PinY Unit="MM">5.230948315066581</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="541" UniqueID="{C3D5A589-611C-4D90-9716-7C5A3EF060F5}" Name="Sheet.541" NameU="Sheet.541">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">7.049677581095907</PinX>
+						<PinY Unit="MM">5.230948315066581</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="542" UniqueID="{064ACBE2-01DA-4E05-961F-83B3B0FA4E7A}" Name="Sheet.542" NameU="Sheet.542">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="MM">6.577236636214017</PinX>
+						<PinY Unit="MM">5.230948315066581</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="543" UniqueID="{4A51A66F-B274-4A60-8677-F8667947698A}" Name="主索引鍵屬性.543" NameU="Primary Key Attribute.543" Master="29">
+					<Text>IP_remove_cdev</Text>
+					<XForm>
+						<PinX Unit="MM">7.982994511214017</PinX>
+						<PinY Unit="MM">5.630998399837631</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="544" UniqueID="{E5692CC7-B585-4FA9-9733-4815324DDDCE}" Name="Sheet.544" NameU="Sheet.544">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">9.388752386214016</PinX>
+						<PinY Unit="MM">5.630998399837631</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="545" UniqueID="{02CA48AB-51ED-4289-8C40-3F1F09D39F02}" Name="Sheet.545" NameU="Sheet.545">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">7.049677581095907</PinX>
+						<PinY Unit="MM">5.630998399837631</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="546" UniqueID="{5E59746C-8EB2-4C7F-B6DC-170431922FB9}" Name="主索引鍵分隔符號.546" NameU="Primary Key Separator.546" Master="30">
+					<XForm>
+						<PinX Unit="MM">7.982994511214017</PinX>
+						<PinY Unit="MM">5.842135273888193</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="563" UniqueID="{281C68F4-F518-4420-B390-D7A9968E6F30}" Name="實體.563" NameU="Entity.563" Master="33">
+					<Text>ethernet.c</Text>
+					<XForm>
+						<PinX Unit="MM">7.982994511214017</PinX>
+						<PinY Unit="MM">3.410519346083330</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="566" UniqueID="{36D18F74-B2D1-4ADB-87F3-2D680BC7CE6B}" Name="Sheet.566" NameU="Sheet.566">
+					<Text>表格</Text>
+					<XForm>
+						<PinX Unit="MM">7.982994511214017</PinX>
+						<PinY Unit="MM">4.011983574056421</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="567" UniqueID="{4D20541C-F8C1-4DB6-8ADA-ACF175F80416}" Name="主索引鍵屬性.567" NameU="Primary Key Attribute.567" Master="29">
+					<Text>Soocket_client_connect</Text>
+					<XForm>
+						<PinX Unit="MM">7.982994511214017</PinX>
+						<PinY Unit="MM">3.386907726345918</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="568" UniqueID="{5C7E042F-D6E8-464B-91B9-96439A218FD5}" Name="Sheet.568" NameU="Sheet.568">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">9.388752386214016</PinX>
+						<PinY Unit="MM">3.386907726345918</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="569" UniqueID="{5CD96D48-0D67-4900-BD2C-E9790E96C9F4}" Name="Sheet.569" NameU="Sheet.569">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">7.049677581095907</PinX>
+						<PinY Unit="MM">3.386907726345918</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="570" UniqueID="{1CF7835F-B1B6-45D3-894C-115BC8514138}" Name="主索引鍵分隔符號.570" NameU="Primary Key Separator.570" Master="30">
+					<XForm>
+						<PinX Unit="MM">7.982994511214017</PinX>
+						<PinY Unit="MM">2.809055118110239</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="575" UniqueID="{2192A205-253E-4659-9AB0-28D2A2D56038}" Name="主索引鍵屬性.575" NameU="Primary Key Attribute.575" Master="29">
+					<Text>data_format</Text>
+					<XForm>
+						<PinX Unit="MM">7.982994511214017</PinX>
+						<PinY Unit="MM">3.003524816867836</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="576" UniqueID="{808D373E-0CE9-4B55-8E71-E9ABD899B245}" Name="Sheet.576" NameU="Sheet.576">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">9.388752386214016</PinX>
+						<PinY Unit="MM">3.003524816867836</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="577" UniqueID="{70A96CE2-324B-4C45-ACDC-6017C817357D}" Name="Sheet.577" NameU="Sheet.577">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">7.049677581095907</PinX>
+						<PinY Unit="MM">3.003524816867836</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="578" UniqueID="{011850D7-30F9-4765-BCE4-DCBEBC483E25}" Name="主索引鍵分隔符號.578" NameU="Primary Key Separator.578" Master="30">
+					<XForm>
+						<PinX Unit="MM">7.982994511214017</PinX>
+						<PinY Unit="MM">3.197994515625432</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="584" UniqueID="{9B457E53-D684-42EB-ABFF-6FC9390F22F9}" Name="實體.584" NameU="Entity.584" Master="33">
+					<Text>video</Text>
+					<XForm>
+						<PinX Unit="MM">15.581419708064409</PinX>
+						<PinY Unit="MM">3.782394039743444</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="587" UniqueID="{BA99A9AE-CEB6-4B0E-81DF-8CDAE37CA14C}" Name="Sheet.587" NameU="Sheet.587">
+					<Text>表格</Text>
+					<XForm>
+						<PinX Unit="MM">15.581419708064409</PinX>
+						<PinY Unit="MM">4.383858267716535</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="588" UniqueID="{DE19C9C3-3EB0-4EF9-895B-9BB5927AE472}" Name="主索引鍵屬性.588" NameU="Primary Key Attribute.588" Master="29">
+					<Text>sobel data received </Text>
+					<XForm>
+						<PinX Unit="MM">15.581419708064409</PinX>
+						<PinY Unit="MM">3.758782420006032</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="589" UniqueID="{73B862F0-8F9B-4B0F-BA22-DDB11EF7F91B}" Name="Sheet.589" NameU="Sheet.589">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">16.987177583064408</PinX>
+						<PinY Unit="MM">3.758782420006032</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="590" UniqueID="{580E829D-41D1-4333-8475-53167DBE0EFB}" Name="Sheet.590" NameU="Sheet.590">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">14.648102777946299</PinX>
+						<PinY Unit="MM">3.758782420006032</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="591" UniqueID="{6BAAAE7C-5847-4F2B-9B58-77E7E0BECC93}" Name="主索引鍵分隔符號.591" NameU="Primary Key Separator.591" Master="30">
+					<XForm>
+						<PinX Unit="MM">15.581419708064409</PinX>
+						<PinY Unit="MM">3.180929811770353</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="596" UniqueID="{A626749F-260A-4EAC-8FFE-47EDD3F1CC50}" Name="主索引鍵屬性.596" NameU="Primary Key Attribute.596" Master="29">
+					<Text>transmition to video</Text>
+					<XForm>
+						<PinX Unit="MM">15.581419708064409</PinX>
+						<PinY Unit="MM">3.375399510527950</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="597" UniqueID="{4BACDDD0-BFB2-4B3E-92DB-0CD84C92520B}" Name="Sheet.597" NameU="Sheet.597">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">16.987177583064408</PinX>
+						<PinY Unit="MM">3.375399510527950</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="598" UniqueID="{CA5643E6-3421-4A8E-8DD9-FC4E039396F5}" Name="Sheet.598" NameU="Sheet.598">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">14.648102777946299</PinX>
+						<PinY Unit="MM">3.375399510527950</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="599" UniqueID="{384B485E-5D73-4F51-A124-40417AAFA02B}" Name="主索引鍵分隔符號.599" NameU="Primary Key Separator.599" Master="30">
+					<XForm>
+						<PinX Unit="MM">15.581419708064409</PinX>
+						<PinY Unit="MM">3.569869209285546</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="616" UniqueID="{8F406EB2-8129-4B00-8F2D-4D203CB1B2E5}" Name="實體.616" NameU="Entity.616" Master="33">
+					<Text>Ethernet</Text>
+					<XForm>
+						<PinX Unit="MM">15.581419708064409</PinX>
+						<PinY Unit="MM">5.752088314645791</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="619" UniqueID="{A7DE16FD-568E-4790-B6CF-2488EBF4CD58}" Name="Sheet.619" NameU="Sheet.619">
+					<Text>表格</Text>
+					<XForm>
+						<PinX Unit="MM">15.581419708064409</PinX>
+						<PinY Unit="MM">6.353552542618882</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="620" UniqueID="{E2867486-9CD4-419A-A186-D0225B381197}" Name="主索引鍵屬性.620" NameU="Primary Key Attribute.620" Master="29">
+					<Text>Soocket server connect</Text>
+					<XForm>
+						<PinX Unit="MM">15.581419708064409</PinX>
+						<PinY Unit="MM">5.728476694908379</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="621" UniqueID="{57FF35A5-84F2-4101-87DB-222BD457C1C8}" Name="Sheet.621" NameU="Sheet.621">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">16.987177583064408</PinX>
+						<PinY Unit="MM">5.728476694908379</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="622" UniqueID="{11BA8882-D99E-44C5-A9F3-4001BA985369}" Name="Sheet.622" NameU="Sheet.622">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">14.648102777946299</PinX>
+						<PinY Unit="MM">5.728476694908379</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="623" UniqueID="{D8B7DC1E-31CE-45E3-98FF-3A89FE4341CE}" Name="主索引鍵分隔符號.623" NameU="Primary Key Separator.623" Master="30">
+					<XForm>
+						<PinX Unit="MM">15.581419708064409</PinX>
+						<PinY Unit="MM">5.150624086672700</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="624" UniqueID="{FE93D075-F56C-4B76-B3B4-7C2A68162610}" Name="主索引鍵屬性.624" NameU="Primary Key Attribute.624" Master="29">
+					<Text>DATA buffer</Text>
+					<XForm>
+						<PinX Unit="MM">15.581419708064409</PinX>
+						<PinY Unit="MM">5.345093785430297</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="625" UniqueID="{F23E3499-AA13-49F0-A372-1139EE3D6B08}" Name="Sheet.625" NameU="Sheet.625">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">16.987177583064408</PinX>
+						<PinY Unit="MM">5.345093785430297</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="626" UniqueID="{15BBEDD5-A3AE-4766-9ED3-15DDB2524228}" Name="Sheet.626" NameU="Sheet.626">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">14.648102777946299</PinX>
+						<PinY Unit="MM">5.345093785430297</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="627" UniqueID="{796CF1D4-3F46-418C-9C2C-1A7CF70C02CA}" Name="主索引鍵分隔符號.627" NameU="Primary Key Separator.627" Master="30">
+					<XForm>
+						<PinX Unit="MM">15.581419708064409</PinX>
+						<PinY Unit="MM">5.539563484187893</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="628" UniqueID="{FBB97593-2971-4DA0-A79E-BB912BC8694F}" Name="矩形.628" NameU="Rectangle.628" Master="2">
+					<Text>Display</Text>
+					<XForm>
+						<PinX Unit="MM">15.610947267119535</PinX>
+						<PinY Unit="MM">0.508366141732283</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>git指令.txt</HLURL:Description>
+										<HLURL:Address>../git指令.txt</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="629" UniqueID="{705EC9E2-1BEC-4407-A6D5-1302F9B18D09}" Name="動態連接器.629" NameU="Dynamic connector.629" Master="8">
+					<XForm>
+						<PinX Unit="MM">15.596183487591972</PinX>
+						<PinY Unit="MM">1.973831047617460</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="633" UniqueID="{01CFC8B6-1E48-46ED-AE16-1094B6B5B252}" Name="主索引鍵分隔符號" NameU="Primary Key Separator" Master="30">
+					<XForm>
+						<PinX Unit="MM">14.652805115157623</PinX>
+						<PinY Unit="MM">11.642830189419673</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="634" UniqueID="{6151A894-3A5B-4A5B-BB5C-BD3E58563329}" Name="動態連接器.634" NameU="Dynamic connector.634" Master="8">
+					<XForm>
+						<PinX Unit="MM">14.652805115157552</PinX>
+						<PinY Unit="MM">12.530202846497126</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="635" UniqueID="{A37F89B0-44D2-458A-AFC3-5C405F52D00E}" Name="動態連接器.635" NameU="Dynamic connector.635" Master="8">
+					<XForm>
+						<PinX Unit="MM">14.652805114507945</PinX>
+						<PinY Unit="MM">11.207767048492123</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="636" UniqueID="{491C0BA2-03C4-4F57-B135-FDCD77ABD133}" Name="動態連接器.636" NameU="Dynamic connector.636" Master="8">
+					<XForm>
+						<PinX Unit="MM">11.923130594863125</PinX>
+						<PinY Unit="MM">13.340260441127663</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="642" UniqueID="{624C3887-9541-43B2-AFED-7BDB1FC9DA05}" Name="屬性" NameU="Attribute" Master="31">
+					<Text>video_count</Text>
+					<XForm>
+						<PinX Unit="MM">5.985209079127414</PinX>
+						<PinY Unit="MM">12.308658883047981</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="643" UniqueID="{21834603-1625-4EAF-9F74-BDC3A9A1DE2A}" Name="Sheet.643" NameU="Sheet.643">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">7.390966954127414</PinX>
+						<PinY Unit="MM">12.308658883047981</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="644" UniqueID="{312A2EFB-06A3-41D1-B137-74A822CB8413}" Name="Sheet.644" NameU="Sheet.644">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">5.051892149009304</PinX>
+						<PinY Unit="MM">12.308658883047981</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="645" UniqueID="{19AAA861-AC96-450C-9E36-740BAB702304}" Name="Sheet.645" NameU="Sheet.645">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="MM">4.579451204127414</PinX>
+						<PinY Unit="MM">12.308658883047981</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="646" UniqueID="{E4773376-2A99-40C0-B35D-9DBBCA1BBEA2}" Name="主索引鍵分隔符號.646" NameU="Primary Key Separator.646" Master="30">
+					<XForm>
+						<PinX Unit="MM">5.985209079127413</PinX>
+						<PinY Unit="MM">12.536460643573154</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="666" UniqueID="{2434687C-ACEA-4C45-9D0C-7235FCED690C}" Name="Sheet.666" NameU="Sheet.666">
+					<Text>R_out[3:0]
+G_out[3:0]
+B_out[3:0]
+h_sync_vga[0]
+v_sync_vga[0]</Text>
+					<XForm>
+						<PinX Unit="MM">6.930547546028826</PinX>
+						<PinY Unit="MM">9.482391549990906</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="670" UniqueID="{42DDFC78-9CC8-47ED-91AE-B966A7B6BCEF}" Name="Sheet.670" NameU="Sheet.670">
+					<Text>data_video[7:0]
+clk_video[0]
+sda[0]
+scl[0]</Text>
+					<XForm>
+						<PinX Unit="MM">3.389217368884736</PinX>
+						<PinY Unit="MM">12.002517456914411</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="671" UniqueID="{FC373D9B-C024-4EED-BF5E-6152238F4449}" Name="Sheet.671" NameU="Sheet.671">
+					<Text>AXI4 &amp;
+Interface HP0 &amp;
+Interface GP0</Text>
+					<XForm>
+						<PinX Unit="MM">4.242837030899057</PinX>
+						<PinY Unit="MM">4.580708661417322</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="672" UniqueID="{62518C1C-1DDC-4F3C-96F3-FA4EFEA20808}" Name="動態連接器.672" NameU="Dynamic connector.672" Master="8">
+					<XForm>
+						<PinX Unit="MM">11.466959507724763</PinX>
+						<PinY Unit="MM">9.547065930648525</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="673" UniqueID="{96285B82-D0C6-4198-8D9E-BBDD76589D07}" Name="動態連接器.673" NameU="Dynamic connector.673" Master="8">
+					<XForm>
+						<PinX Unit="MM">5.443979968157438</PinX>
+						<PinY Unit="MM">4.620078740157481</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="674" UniqueID="{E86EF11B-61D6-4E90-9047-CFFC5A6B09F4}" Name="屬性.674" NameU="Attribute.674" Master="31">
+					<Text>IP_setup_cdev</Text>
+					<XForm>
+						<PinX Unit="MM">7.982994511214017</PinX>
+						<PinY Unit="MM">4.814233343820920</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="675" UniqueID="{A3BD2205-3A60-461B-AA7C-A0F4DB9E0161}" Name="Sheet.675" NameU="Sheet.675">
+					<Text>int</Text>
+					<XForm>
+						<PinX Unit="MM">9.388752386214016</PinX>
+						<PinY Unit="MM">4.814233343820920</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="676" UniqueID="{A7340A3F-8500-43F6-9609-BF7CBCC7523B}" Name="Sheet.676" NameU="Sheet.676">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="MM">7.049677581095907</PinX>
+						<PinY Unit="MM">4.814233343820920</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="677" UniqueID="{6877B0E4-DC05-4B34-8492-9E6D28A1A247}" Name="Sheet.677" NameU="Sheet.677">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="MM">6.577236636214017</PinX>
+						<PinY Unit="MM">4.814233343820920</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="679" UniqueID="{8B73D3ED-8D2E-48DB-B441-39202AEFDE6B}" Name="主索引鍵分隔符號.679" NameU="Primary Key Separator.679" Master="30">
+					<XForm>
+						<PinX Unit="MM">7.982994511214013</PinX>
+						<PinY Unit="MM">5.042035104346093</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="688" UniqueID="{FBD3C092-7298-47DB-9875-701C4C4AA0CD}" Name="Sheet.688" NameU="Sheet.688">
+					<Text>    AXIsToVDMA_en_0 [0]
+    AXIsToVDMA_h_blank_vga_0 [0]
+    AXIsToVDMA_v_blank_vga_0 [0]
+    AXIsToVDMA_video_data_in_0 [31:0]
+    en_display_active_high_0 [0]
+    vid_data_1 [23:0]
+    vid_hsync_1 [0]
+    vid_io_in_clk_0 [0]
+    vid_vsync_1 [0]</Text>
+					<XForm>
+						<PinX Unit="MM">11.811269686023623</PinX>
+						<PinY Unit="MM">12.519685039370081</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="690" UniqueID="{B8A31588-C26E-40AB-9A77-6731F54760DE}" Name="Sheet.690" NameU="Sheet.690">
+					<Text>
+m00_axis_aclk	[0]
+m00_axis_aresetn [0]
+m00_axis_tvalid	[0]
+m00_axis_tdata	[31:0]
+m00_axis_tstrb	[3:0]
+m00_axis_tlast	[0]
+m00_axis_tready	[0]</Text>
+					<XForm>
+						<PinX Unit="MM">16.746090333442698</PinX>
+						<PinY Unit="MM">13.015555496305556</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="691" UniqueID="{F27AA3C5-8A9D-4A6B-84EC-EFB66CAEE944}" Name="Sheet.691" NameU="Sheet.691">
+					<Text>s00_axis_aclk	[0]
+s00_axis_aresetn [0]
+s00_axis_tready	[0]
+s00_axis_tdata	[31:0]
+s00_axis_tstrb	[3:0]
+s00_axis_tlast	[0]
+s00_axis_tvalid	[0]
+s00_axis_tuser	[0]</Text>
+					<XForm>
+						<PinX Unit="MM">16.881889763779530</PinX>
+						<PinY Unit="MM">10.955052493438323</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="693" UniqueID="{625D2106-7A02-423A-9ABC-21F659C1A99E}" Name="Sheet.693" NameU="Sheet.693">
+					<Text>Ethernet</Text>
+					<XForm>
+						<PinX Unit="MM">12.275044140538274</PinX>
+						<PinY Unit="MM">4.788685381718596</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="694" UniqueID="{95104762-0E30-432A-9AE1-2BC737C1689E}" Name="動態連接器.694" NameU="Dynamic connector.694" Master="8">
+					<XForm>
+						<PinX Unit="MM">11.427876400977800</PinX>
+						<PinY Unit="MM">4.620078740157481</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="695" UniqueID="{8A8A8993-C45D-4262-893B-5EC97DB62C59}" Name="動態連接器.695" NameU="Dynamic connector.695" Master="8">
+					<XForm>
+						<PinX Unit="MM">13.259296121402242</PinX>
+						<PinY Unit="MM">4.620078740157481</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>
