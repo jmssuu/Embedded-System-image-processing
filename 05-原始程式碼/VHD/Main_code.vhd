@@ -71,23 +71,6 @@ architecture Behavioral of main_code is
 
 signal rst_system : std_logic := '0';
 --BRAM counter----------------------------------
---component blk_mem_gen_v7_3 is
---  PORT (
---    clka : IN STD_LOGIC;
---    ena : IN STD_LOGIC;
---    addra : IN STD_LOGIC_VECTOR(18 DOWNTO 0);
---    douta : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
---  );
---END component;
-
-
---signal BR_Enable_W 		: std_logic;
---signal BR_WriteHigh_W	: std_logic_vector(0 downto 0);
---signal BR_DataIn_W 		: std_logic_vector(7 downto 0);
---signal BR_Address_W 	: integer range 0 to (524287-1);		
---signal BR_Address_std_W	: std_logic_vector(18 downto 0);
---signal BR_DataOut_W		: std_logic_vector(7 downto 0);
-
 signal BR_Enable_R 		: std_logic;
 signal BR_WriteHigh_R	: std_logic_vector(0 downto 0);
 signal BR_DataIn_R 		: std_logic_vector(7 downto 0);
@@ -179,26 +162,12 @@ component design_1_wrapper is
      FIXED_IO_ps_clk : inout STD_LOGIC;
      FIXED_IO_ps_porb : inout STD_LOGIC;
      FIXED_IO_ps_srstb : inout STD_LOGIC;
---     axi_data_i_0 : in STD_LOGIC_VECTOR ( 31 downto 0 );
---     axi_data_o_0 : out STD_LOGIC_VECTOR ( 31 downto 0 );
      
-  
-     ----------------------------------------------------------------------------
---     btns : in STD_LOGIC_VECTOR ( 3 downto 0 );
---     hog_data_0 : in STD_LOGIC_VECTOR ( 8063 downto 0 );
+ 
      leds : out STD_LOGIC_VECTOR ( 7 downto 0 );
      sws : in STD_LOGIC_VECTOR ( 7 downto 0 );
      
      ----AXI VDMA------------------------------------------------------------------- 
-     
-          
---     vid_io_in_0_active_video : in STD_LOGIC;
---     vid_io_in_0_data : in STD_LOGIC_VECTOR ( 23 downto 0 );
---     vid_io_in_0_field : in STD_LOGIC;
---     vid_io_in_0_hblank : in STD_LOGIC;
---     vid_io_in_0_hsync : in STD_LOGIC;
---     vid_io_in_0_vblank : in STD_LOGIC;
---     vid_io_in_0_vsync : in STD_LOGIC;
      vid_io_in_clk_0 : in STD_LOGIC;
      
      vid_data_1 : out STD_LOGIC_VECTOR ( 23 downto 0 );--( 31 downto 0 );--( 23 downto 0 );
@@ -211,30 +180,12 @@ component design_1_wrapper is
      AXIsToVDMA_en_0 : in STD_LOGIC;
      AXIsToVDMA_v_blank_vga_0 : in STD_LOGIC;
      AXIsToVDMA_video_data_in_0 : in STD_LOGIC_VECTOR ( 31 downto 0 );
---     vtc0_clken_0 : in STD_LOGIC;
---     vtc0_gen_clken_0 : in STD_LOGIC;
---     vtc0_resetn_0 : in STD_LOGIC;
      ---------------------------------------------------------
      BRAM_ORG_addr : in STD_LOGIC_VECTOR ( 18 downto 0 );
      BRAM_ORG_clk : in STD_LOGIC;
      BRAM_ORG_din : in STD_LOGIC_VECTOR ( 7 downto 0 );
      BRAM_ORG_en : in STD_LOGIC;
      BRAM_ORG_we : in STD_LOGIC_VECTOR ( 0 to 0 )
-     
---     vtiming_in_0_active_video : in STD_LOGIC;
---     vtiming_in_0_field : in STD_LOGIC;
---     vtiming_in_0_hblank : in STD_LOGIC;
---     vtiming_in_0_hsync : in STD_LOGIC;
---     vtiming_in_0_vblank : in STD_LOGIC;
---     vtiming_in_0_vsync : in STD_LOGIC;
---      hsync_out_0 : out STD_LOGIC;
---      vsync_out_0 : out STD_LOGIC;
---    fid_0 : in STD_LOGIC;
---    vid_io_out_reset_0 : in STD_LOGIC
---    aresetn_0 : in STD_LOGIC;
---axis_enable_0 : in STD_LOGIC
-
-
     
 
   );
@@ -249,13 +200,7 @@ end component;
      signal BlocksInCol_cnt : integer range 0 to 14 := 0;           --HOG count col = 15
      
      --to DMA vga-----------------------------------------------
---     signal vid_io_in_0_active_video : STD_LOGIC;
      signal vid_io_in_0_data : STD_LOGIC_VECTOR ( 23 downto 0 );
---     signal vid_io_in_0_field : STD_LOGIC;
---     signal vid_io_in_0_hblank : STD_LOGIC;
---     signal vid_io_in_0_hsync : STD_LOGIC;
---     signal vid_io_in_0_vblank : STD_LOGIC;
---     signal vid_io_in_0_vsync : STD_LOGIC;
      signal vtc_hsync_out_0 : STD_LOGIC;
      signal vtc_vsync_out_0 : STD_LOGIC;
      -----video VDMA in------------------------------------------------
@@ -267,10 +212,8 @@ end component;
      signal vid_vsync_1 : STD_LOGIC;
      ---------------------------------------------------------
      signal BRAM_ORG_addr : STD_LOGIC_VECTOR ( 18 downto 0 );
---     signal BRAM_ORG_clk : STD_LOGIC;
      signal BRAM_ORG_din : STD_LOGIC_VECTOR ( 7 downto 0 );
      signal BRAM_ORG_en : STD_LOGIC;
---     signal BRAM_ORG_we : STD_LOGIC_VECTOR ( 0 to 0 );
 --VGA-8bit-------------------------------------------------------------------------------------------------------
 component i2c
 Port (
@@ -310,10 +253,6 @@ end component;
     signal v_blank_vga_buf : std_logic;
 
 component sobel is
---Generic(
---    threshold : integer range 0 to 1023:=128;
---    ksize : integer range 1 to 3 :=3
---);
 port (
         clk_video  : IN  std_logic;
         rst_system : IN  std_logic;
@@ -366,16 +305,13 @@ begin
 
 rst_system <= not rst_system_i;
 
---v_sync_vga<= v_sync_vga_buf;
 with sws(1) select
 v_sync_vga<= vid_vsync_1 when '1',--"01",
---             vtc_vsync_out_0 when "10",
              v_sync_vga_buf when others;
 
---h_sync_vga<= h_sync_vga_buf;
+
 with sws(1) select
 h_sync_vga<= vid_hsync_1 when '1',--"01",
---             vtc_hsync_out_0 when "10",
              h_sync_vga_buf when others;
 
 with sws(0) select
@@ -594,113 +530,6 @@ elsif rising_edge(clk_video) then
     end if;
 end if;
 end process;
-----VGA-RGB-9bit---------------------------------------------------------------------------------------------------
-
-----################################################ TP Block RAM 307200 ############################################
----- BR_Address_std_W <= CONV_STD_LOGIC_VECTOR(BR_Address_W, 19);
--- BR_Address_std_R <= CONV_STD_LOGIC_VECTOR(BR_Address_R, 19);
-
---process(clk_video,rst_system)
---begin
-    
---if rst_system = '0' then
---    BR_Enable_R <= '0';          
---    BR_Address_R <= 0;  
---    Bram_out <= (others => '0');                  
-    
---elsif rising_edge(clk_video) then     
-        
---    if buf_vga_en = '1' and ( cnt_h_sync_vga >= 0 and cnt_h_sync_vga < 720 and cnt_v_sync_vga >= 0 and cnt_v_sync_vga < 480) then   
---             BR_Enable_R <= '1';                                          
---        if BR_Address_R = 307199 then -- address = 640 x 480 = 307200    638x478 = 304964                                 
---            BR_Address_R <= 0;
---        else     
---            BR_Address_R <= BR_Address_R + 1;                     
---        end if;   
- 
---        Bram_out <= BR_DataOut_R(7 downto 0);                        
-        
---     elsif image_data_enable ='0' then   
---        BR_Enable_R <= '0';                 
---        BR_Address_R <= BR_Address_R; 
---        Bram_out <= "00000000";                              
-       
---     end if;   
---end if;
---end process;
-
----- process(clk_video,rst_system)
----- variable buf_state : std_logic_vector(1 downto 0);
----- begin
-----	 if rst_system = '0' then
-----		 BR_Enable_R       <= '0';
-----		 BR_WriteHigh_R    <= "0";
-----		 BR_Address_R      <= 0;	
-----		 BR_DataIn_R       <= (others =>'0');
-----		 Bram_out          <= "00000000";
-----	 elsif rising_edge(clk_video) then
-----        if ( cnt_h_sync_vga >= 0 and cnt_h_sync_vga < 640 and cnt_v_sync_vga >= 0 and cnt_v_sync_vga < 480) then
-----            BR_Enable_R         <= '1';
-----            BR_WriteHigh_R      <= "0";
-                            
-----            if BR_Address_R = 307199 then -- address = 640 x 480 = 307200	638x478 = 304964							 	
-----               BR_Address_R     <= 0;
-----            else
-----               BR_Address_R     <= BR_Address_R + 1;				 	
-----            end if;
-                   
-----            Bram_out <= BR_DataOut_R(7 downto 0);
-----        elsif image_data_enable ='0' then      
-----            BR_Enable_R			<= '0';
-----            BR_WriteHigh_R		<= (others=>'0');
-----            --BR_Address_R  		<= BR_Address_R;
-----            BR_DataIn_R			<= (others =>'0');
-----            Bram_out <= "00000000";
-----        end if;
-----    end if;
----- end process;
-
-
----- process(clk_video,rst_system)
----- variable buf_state : std_logic_vector(1 downto 0);
----- begin
---	-- if rst_system = '0' then
---		-- BR_Enable_W			<= '0';
---		-- BR_WriteHigh_W		<= "0";
---		-- BR_Address_W  		<= 0;
---		-- BR_DataIn_W			<= (others =>'0');				
---	-- elsif rising_edge(clk_video) then
---		-- if ( cnt_h_sync_vga >= 0 and cnt_h_sync_vga < 640 and cnt_v_sync_vga >= 0 and cnt_v_sync_vga < 480) then
-			
---			-- --###
---			-- BR_DataIn_W <= buf_vga_Y(buf_vga_Y_out_cnt);														
---			-- --###
---			-- if sw0 ='1'then 
---				-- BR_Enable_W			<= '1';
---				-- BR_WriteHigh_W		<= "1";
---			-- elsif sw0 ='0'then 
---				-- BR_Enable_W			<= '1';
---				-- BR_WriteHigh_W		<= "0";
---			-- end if ;
-
---			-- if BR_Address_W = 307199 then -- address = 640 x 480 = 307200	638x478 = 304964							 	
---				-- BR_Address_W <= 0;			
-				
---			-- else
---				-- BR_Address_W <= BR_Address_W + 1;				 	
---			-- end if;
-
---		-- elsif image_data_enable ='0' then
---			-- BR_Enable_W			<= '0';
---			-- BR_WriteHigh_W		<= "0";
---			-- --BR_Address_W  		<= BR_Address_W;
---			-- BR_DataIn_W			<= (others =>'0');
-				
---		-- end if;
---	-- end if;
----- end process;
-
-----################################## TP Block RAM 307200 ###############################################
 
 --Buf-state---------------------------------------------------------------------------------------------------
 process(rst_system, clk_video)
