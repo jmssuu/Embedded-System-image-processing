@@ -1,0 +1,166 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="visio.css"/>
+<title>
+FPGA_類別圖
+</title>
+<script type="text/javascript" language="javascript">
+function UpdateTooltip(){};
+function OnShapeClick(){};
+</script>
+
+<script src="png_1.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript" language="javascript">
+	if( (parent.isSVG) || 
+		(parent.isVML && parent.vmlSupported) || 
+		(parent.isXAML && parent.isUpLevel)) 
+	{
+		location.replace(parent.g_FileList[parent.g_CurPageIndex].PriImage);
+	}
+</script>
+
+
+<script type="text/javascript" language="javascript">
+var pageID = 0;
+var isUpLevel = parent.isUpLevel;
+var OnShapeClick = null;
+if (!parent.isMac)
+{
+	OnShapeClick = parent.OnShapeClick;
+}
+
+var OnShapeKey = parent.OnShapeKey;
+var UpdateTooltip = parent.UpdateTooltip;
+var clickMenu = parent.clickMenu;
+var toggleMenuDiv = parent.toggleMenuDiv;
+var toggleMenuLink = parent.toggleMenuLink;
+var GoToPage = parent.GoToPage;
+
+
+if (parent.isUpLevel)
+{
+
+	if (parent.g_FirstPageToLoad != null && parent.g_FirstPageToLoad.length > 0)
+	{
+		if (parent.g_FileList[parent.g_CurPageIndex].PageID != pageID)
+		{
+			var fileEntry = parent.g_FileList[parent.g_CurPageIndex];
+			var fileToLoad = fileToLoad = fileEntry.PriImage;
+			if (fileEntry.SecImage.length > 0)
+			{
+				fileToLoad = fileEntry.SecImage;
+			}
+
+			location.replace(fileToLoad);
+		}
+
+		parent.g_FirstPageToLoad = null;
+	}
+
+
+	var viewMgr = new parent.CViewMgr();
+	parent.viewMgr = viewMgr;
+
+	viewMgr.SupportsDetails = true;
+	viewMgr.SupportsSearch = true;
+
+	viewMgr.put_Location = ViewMgrSetRasterLocation;
+	viewMgr.visBBoxLeft = 12.233516;
+	viewMgr.visBBoxRight = 21.224904;
+	viewMgr.visBBoxBottom = 2.829874;
+	viewMgr.visBBoxTop = 7.868387;
+	viewMgr.highlightDiv = null;
+}
+
+function load ()
+{
+	if(isUpLevel)
+	{
+		arrowdiv.innerHTML = '<img id="arrowgif" alt="顯示選取圖形的位置" src="arrow.png"/>';
+
+		var pageIndex = parent.PageIndexFromID (pageID);
+		parent.CurPageUpdate (pageIndex);
+	}
+}
+
+function unload()
+{
+	if(isUpLevel)
+	{
+		viewMgr = null;
+		parent.viewMgr = null;
+	}
+}
+
+window.onload = load;
+window.onunload = unload;
+document.onclick = clickMenu;
+
+</script>
+<style type="text/css"> 
+body {
+	background:url(foo) fixed;
+	padding: 10px;
+}
+div.banner {
+	position: fixed;
+	_position: absolute;
+	top: 0;
+	left: 0;
+	_top: expression(eval(document.body.scrollTop));
+	_left: expression(eval(document.body.scrollLeft));
+	width: 100%;
+	_width: expression(eval(document.body.clientWidth));
+	margin: 0;
+	padding: 3px;
+	padding-left: 6px;
+	background:lime;
+	background-color: #FFFFC6;
+	font: 11px tahoma,arial,serif;
+	border-bottom: 2px ridge #FFFFC6;
+}
+</style>
+</head>
+
+<body class="pageView" bgcolor="#FFFFFF" style="margin: 0px">
+
+<script type="text/javascript" language="javascript">
+// Displays the banner prompt to install Silverlight
+if (parent.slSupported && !parent.slInstalled)
+{
+	var slBanner = document.createElement("div");
+	slBanner.className = "banner";
+	slBanner.innerHTML = '若要啟用完整功能，例如全景和縮放，<a href="http://www.microsoft.com/silverlight/resources/install.aspx" target="parent">按一下此處</a> 需安裝 Silverlight 外掛程式。';
+
+	document.body.appendChild(slBanner);
+	document.body.style.paddingTop = "2.5em";
+}
+</script>
+
+
+<div id="arrowdiv" style="position:absolute;top:0;left:0;visibility:hidden;z-index:5">
+</div>
+
+<div id="menu1" onclick="clickMenu()" class="hlMenu">
+</div>
+<DIV id="RasterDiv" style="margin:10px">
+
+<center>
+  <IMG id="ConvertedImage" SRC="png_1.png" ALT="頁-1" name=RasterImage BORDER="0" USEMAP="#visImageMap">
+</center>
+
+<MAP NAME="visImageMap">
+  <AREA shape="POLYGON" tabindex="1" ALT="Video_socket_server.py" origTitle="Video_socket_server.py" TITLE="Video_socket_server.py" HREF="https://github.com/jmssuu/Embedded-System-image-processing/blob/master/05-source_code/Python/RaspberryPi3_Python2.7/PBL_final/Video_socket_server.py" target="_top" COORDS="612,110,612,185,858,185,858,110,858,68,612,68,612,110" onmouseover="UpdateTooltip(this,0,69,event)" onfocus="UpdateTooltip(this,0,69,event)" onclick="return OnShapeClick(0,69,event);" onkeyup="OnShapeKey(0,69,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="ip_Bram.c" origTitle="ip_Bram.c" TITLE="ip_Bram.c" HREF="https://github.com/jmssuu/Embedded-System-image-processing/blob/master/05-source_code/Linux_source_code/driver_makefile/ip_Bram.c" target="_top" COORDS="569,417,323,417,569,417" onmouseover="UpdateTooltip(this,0,58,event)" onfocus="UpdateTooltip(this,0,58,event)" onclick="return OnShapeClick(0,58,event);" onkeyup="OnShapeKey(0,58,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="ip_Bram.c" origTitle="ip_Bram.c" TITLE="ip_Bram.c" HREF="https://github.com/jmssuu/Embedded-System-image-processing/blob/master/05-source_code/Linux_source_code/driver_makefile/ip_Bram.c" target="_top" COORDS="569,417,569,375,323,375,323,417,323,476,569,476,569,417" onmouseover="UpdateTooltip(this,0,58,event)" onfocus="UpdateTooltip(this,0,58,event)" onclick="return OnShapeClick(0,58,event);" onkeyup="OnShapeKey(0,58,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="socket_client.c" origTitle="socket_client.c" TITLE="socket_client.c" HREF="https://github.com/jmssuu/Embedded-System-image-processing/blob/master/05-source_code/Linux_source_code/program_fiel/socket_client(copy2)_socket_client_break.c" target="_top" COORDS="316,114,316,333,565,333,565,114,565,72,316,72,316,114" onmouseover="UpdateTooltip(this,0,45,event)" onfocus="UpdateTooltip(this,0,45,event)" onclick="return OnShapeClick(0,45,event);" onkeyup="OnShapeKey(0,45,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="design_1_wrapper.vhd" origTitle="design_1_wrapper.vhd" TITLE="design_1_wrapper.vhd" HREF="https://github.com/jmssuu/Embedded-System-image-processing/blob/master/05-source_code/VHD/design_1_wrapper.vhd" target="_top" COORDS="261,278,15,278,261,278" onmouseover="UpdateTooltip(this,0,16,event)" onfocus="UpdateTooltip(this,0,16,event)" onclick="return OnShapeClick(0,16,event);" onkeyup="OnShapeKey(0,16,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="design_1_wrapper.vhd" origTitle="design_1_wrapper.vhd" TITLE="design_1_wrapper.vhd" HREF="https://github.com/jmssuu/Embedded-System-image-processing/blob/master/05-source_code/VHD/design_1_wrapper.vhd" target="_top" COORDS="261,278,261,236,15,236,15,278,15,382,261,382,261,278" onmouseover="UpdateTooltip(this,0,16,event)" onfocus="UpdateTooltip(this,0,16,event)" onclick="return OnShapeClick(0,16,event);" onkeyup="OnShapeKey(0,16,event);">
+  <AREA shape="POLYGON" tabindex="1" ALT="" origTitle="" TITLE="" HREF="https://github.com/jmssuu/Embedded-System-image-processing/blob/master/05-source_code/VHD/Main_code.vhd" target="_top" COORDS="4,397,272,397,272,72,4,72,4,397" onmouseover="UpdateTooltip(this,0,177,event)" onfocus="UpdateTooltip(this,0,177,event)" onclick="return OnShapeClick(0,177,event);" onkeyup="OnShapeKey(0,177,event);">
+</MAP>
+
+
+</DIV>
+</body>
+</html>

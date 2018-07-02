@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="頁-1" NameU="Page-1">
+			<PageProps>
+				<PageScale Unit="MM">0.039370078740157</PageScale>
+				<DrawingScale Unit="MM">0.039370078740157</DrawingScale>
+			</PageProps>
+			<Layer IX="0">
+				<Name>容器</Name>
+				<NameUniv>Container</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Layer IX="1">
+				<Name>連接器</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="177" UniqueID="{5D77A1EC-FAE8-477F-84DE-C36B442D4846}" Name="一般.2" NameU="Plain" Master="21">
+					<Text>FPGA main_code.vhd</Text>
+					<XForm>
+						<PinX Unit="MM">13.673228346456696</PinX>
+						<PinY Unit="MM">5.425902850395204</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/jmssuu/Embedded-System-image-processing/blob/master/05-source_code/VHD/Main_code.vhd</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/jmssuu/Embedded-System-image-processing/blob/master/05-source_code/VHD/Main_code.vhd</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="8" UniqueID="{F340F776-F16C-45B7-8737-4010D784EDFA}" Name="類別" NameU="Class" Master="6">
+					<Text>video_in.vhd</Text>
+					<XForm>
+						<PinX Unit="MM">13.673228346456694</PinX>
+						<PinY Unit="MM">6.136760060473403</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{64614F77-1D96-4CDB-A39E-2265B7495D53}" Name="Sheet.11" NameU="Sheet.11">
+					<Text>&lt;&lt;造型&gt;&gt;</Text>
+					<XForm>
+						<PinX Unit="MM">13.673228346456694</PinX>
+						<PinY Unit="MM">6.644287220648023</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="12" UniqueID="{642796EA-4F53-4F39-A8E0-B53DE2AAE4A9}" Name="Sheet.12" NameU="Sheet.12">
+					<Text>參數</Text>
+					<XForm>
+						<PinX Unit="MM">14.834645669291341</PinX>
+						<PinY Unit="MM">6.644287220648023</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="13" UniqueID="{9C5E977B-4795-46E9-8813-4A33B3734F96}" Name="成員.13" NameU="Member.13" Master="5">
+					<Text>videoin</Text>
+					<XForm>
+						<PinX Unit="MM">13.673228346456694</PinX>
+						<PinY Unit="MM">5.918678741978392</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="15" UniqueID="{6D450A05-48FB-459B-AC21-BA981DC0CE36}" Name="成員.15" NameU="Member.15" Master="5">
+					<Text>VGA_count</Text>
+					<XForm>
+						<PinX Unit="MM">13.673228346456694</PinX>
+						<PinY Unit="MM">5.751961566685424</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="16" UniqueID="{9867C05D-66ED-4B3D-AEC2-4D0258347925}" Name="類別.16" NameU="Class.16" Master="6">
+					<Text>design_1_wrapper.vhd</Text>
+					<XForm>
+						<PinX Unit="MM">13.673228346456698</PinX>
+						<PinY Unit="MM">4.650160773335196</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/jmssuu/Embedded-System-image-processing/blob/master/05-source_code/VHD/design_1_wrapper.vhd</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/jmssuu/Embedded-System-image-processing/blob/master/05-source_code/VHD/design_1_wrapper.vhd</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="19" UniqueID="{D5D7585A-CA8C-45BB-8E4D-97C52E5349C5}" Name="Sheet.19" NameU="Sheet.19">
+					<Text>&lt;&lt;造型&gt;&gt;</Text>
+					<XForm>
+						<PinX Unit="MM">13.673228346456698</PinX>
+						<PinY Unit="MM">5.407763696449276</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="20" UniqueID="{AD956B27-2E80-4F28-A338-30D526887CC1}" Name="Sheet.20" NameU="Sheet.20">
+					<Text>參數</Text>
+					<XForm>
+						<PinX Unit="MM">14.834645669291342</PinX>
+						<PinY Unit="MM">5.407763696449276</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="21" UniqueID="{4BD526FE-6D48-4DA9-98EB-D53D4DAAD073}" Name="成員" NameU="Member" Master="5">
+					<Text>myip_axis_to_vdma</Text>
+					<XForm>
+						<PinX Unit="MM">13.673228346456698</PinX>
+						<PinY Unit="MM">4.682155217779640</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="23" UniqueID="{363153F4-3796-429C-ABE0-177DD41ADFCC}" Name="成員.23" NameU="Member.23" Master="5">
+					<Text>myip_vdma_axis_mm2s</Text>
+					<XForm>
+						<PinX Unit="MM">13.673228346456698</PinX>
+						<PinY Unit="MM">4.515438042486671</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="32" UniqueID="{391D9369-D79F-42F6-967B-2F53E5B93CA0}" Name="成員.32" NameU="Member.32" Master="5">
+					<Text>axi_vdma</Text>
+					<XForm>
+						<PinX Unit="MM">13.673228346456698</PinX>
+						<PinY Unit="MM">4.848872393072608</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="34" UniqueID="{E5E5C11D-9517-4DA7-95A2-B205137928D8}" Name="成員.34" NameU="Member.34" Master="5">
+					<Text>Sav_Eav</Text>
+					<XForm>
+						<PinX Unit="MM">13.673228346456694</PinX>
+						<PinY Unit="MM">6.085395917271362</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="45" UniqueID="{9D62BAA0-A58C-4E6E-9D81-34E91FD4D830}" Name="類別.45" NameU="Class.45" Master="6">
+					<Text>socket_client.c</Text>
+					<XForm>
+						<PinX Unit="MM">16.822834647244100</PinX>
+						<PinY Unit="MM">5.756264656239098</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/jmssuu/Embedded-System-image-processing/blob/master/05-source_code/Linux_source_code/program_fiel/socket_client(copy2)_socket_client_break.c</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/jmssuu/Embedded-System-image-processing/blob/master/05-source_code/Linux_source_code/program_fiel/socket_client(copy2)_socket_client_break.c</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="48" UniqueID="{DAF3C85B-99B4-4549-96BB-EAD585DC9C04}" Name="Sheet.48" NameU="Sheet.48">
+					<Text>&lt;&lt;造型&gt;&gt;</Text>
+					<XForm>
+						<PinX Unit="MM">16.822834647244100</PinX>
+						<PinY Unit="MM">7.117062732248643</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="49" UniqueID="{D9D688C9-E089-42BB-A3F6-61C1818050E1}" Name="Sheet.49" NameU="Sheet.49">
+					<Text>參數</Text>
+					<XForm>
+						<PinX Unit="MM">18.003937011023627</PinX>
+						<PinY Unit="MM">7.117062732248643</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="50" UniqueID="{024BC8FB-FB0D-4A4F-A5E5-6FD01E803941}" Name="成員.50" NameU="Member.50" Master="5">
+					<Text>IP_open()</Text>
+					<XForm>
+						<PinX Unit="MM">16.822834647244100</PinX>
+						<PinY Unit="MM">6.558171428871992</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="52" UniqueID="{72D6C782-D72C-49DF-B388-E76687005866}" Name="成員.52" NameU="Member.52" Master="5">
+					<Text>IP_ioctl()</Text>
+					<XForm>
+						<PinX Unit="MM">16.822834647244100</PinX>
+						<PinY Unit="MM">6.058019902993086</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="53" UniqueID="{2FFA2CF6-AF80-417F-9C34-456E2483678A}" Name="成員.53" NameU="Member.53" Master="5">
+					<Text>IP_release()</Text>
+					<XForm>
+						<PinX Unit="MM">16.822834647244100</PinX>
+						<PinY Unit="MM">6.391454253579023</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="56" UniqueID="{F7F6BE68-68D6-40E8-8A53-CE3910D564C2}" Name="成員.56" NameU="Member.56" Master="5">
+					<Text>IP_read()</Text>
+					<XForm>
+						<PinX Unit="MM">16.822834647244100</PinX>
+						<PinY Unit="MM">6.224737078286055</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="58" UniqueID="{F9E697C4-190E-4304-B80B-FEAFF67B286F}" Name="類別.58" NameU="Class.58" Master="6">
+					<Text>ip_Bram.c</Text>
+					<XForm>
+						<PinX Unit="MM">16.881889766929142</PinX>
+						<PinY Unit="MM">3.431361165984014</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/jmssuu/Embedded-System-image-processing/blob/master/05-source_code/Linux_source_code/driver_makefile/ip_Bram.c</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/jmssuu/Embedded-System-image-processing/blob/master/05-source_code/Linux_source_code/driver_makefile/ip_Bram.c</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="61" UniqueID="{0D906B52-44D6-404C-A0E1-3AEE71C4A353}" Name="Sheet.61" NameU="Sheet.61">
+					<Text>&lt;&lt;造型&gt;&gt;</Text>
+					<XForm>
+						<PinX Unit="MM">16.881889766929142</PinX>
+						<PinY Unit="MM">3.958573365528712</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="62" UniqueID="{4A41D95E-E2FB-4EFB-B681-38050B7EE3EF}" Name="Sheet.62" NameU="Sheet.62">
+					<Text>參數</Text>
+					<XForm>
+						<PinX Unit="MM">18.043307089763786</PinX>
+						<PinY Unit="MM">3.958573365528712</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="63" UniqueID="{E19D5FE3-B329-45E6-B387-80ED5097B5C2}" Name="成員.63" NameU="Member.63" Master="5">
+					<Text>fmat_tdata()</Text>
+					<XForm>
+						<PinX Unit="MM">16.881889766929142</PinX>
+						<PinY Unit="MM">3.399682062152052</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="66" UniqueID="{8913D861-A000-461F-AC67-C73394DF931F}" Name="成員.66" NameU="Member.66" Master="5">
+					<Text>main()</Text>
+					<XForm>
+						<PinX Unit="MM">16.881889766929142</PinX>
+						<PinY Unit="MM">3.232964886859083</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="68" UniqueID="{2A40A3D4-37DE-4655-843A-9BB83B5EC637}" Name="分隔符號.68" NameU="Separator.68" Master="7">
+					<XForm>
+						<PinX Unit="MM">16.881889766929142</PinX>
+						<PinY Unit="MM">3.129921259842520</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="69" UniqueID="{DE04F030-52E8-4ABE-921E-ECAB4CF0CB86}" Name="類別.69" NameU="Class.69" Master="6">
+					<Text>Video_socket_server.py</Text>
+					<XForm>
+						<PinX Unit="MM">19.893700787401578</PinX>
+						<PinY Unit="MM">6.552749975265547</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>https://github.com/jmssuu/Embedded-System-image-processing/blob/master/05-source_code/Python/RaspberryPi3_Python2.7/PBL_final/Video_socket_server.py</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>https://github.com/jmssuu/Embedded-System-image-processing/blob/master/05-source_code/Python/RaspberryPi3_Python2.7/PBL_final/Video_socket_server.py</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="72" UniqueID="{DAB6872E-C7D3-4319-BED6-AAACC41E176D}" Name="Sheet.72" NameU="Sheet.72">
+					<Text>&lt;&lt;造型&gt;&gt;</Text>
+					<XForm>
+						<PinX Unit="MM">19.893700787401578</PinX>
+						<PinY Unit="MM">7.163295508143579</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="73" UniqueID="{76DC9874-359B-47CF-90B5-391DE84E29B7}" Name="Sheet.73" NameU="Sheet.73">
+					<Text>參數</Text>
+					<XForm>
+						<PinX Unit="MM">21.055118110236226</PinX>
+						<PinY Unit="MM">7.163295508143579</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="74" UniqueID="{59584832-84D5-4EB8-AB40-F71F09CC248A}" Name="成員.74" NameU="Member.74" Master="5">
+					<Text>parse_img()</Text>
+					<XForm>
+						<PinX Unit="MM">19.893700787401574</PinX>
+						<PinY Unit="MM">6.604404204766921</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="75" UniqueID="{25157569-AAB3-413D-9E5D-5BCCA6F3D923}" Name="分隔符號.75" NameU="Separator.75" Master="7">
+					<XForm>
+						<PinX Unit="MM">19.893700787401578</PinX>
+						<PinY Unit="MM">6.001259560497754</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="76" UniqueID="{7952C9A5-D28E-4383-805F-3C229F3AD1AA}" Name="成員.76" NameU="Member.76" Master="5">
+					<Text>test()</Text>
+					<XForm>
+						<PinX Unit="MM">19.893700787401578</PinX>
+						<PinY Unit="MM">6.270969854180984</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="128" UniqueID="{D272D534-D7A5-4025-9CED-0E211FBC0D21}" Name="成員.128" NameU="Member.128" Master="5">
+					<Text>IP_setup_cdev()</Text>
+					<XForm>
+						<PinX Unit="MM">16.822834647244100</PinX>
+						<PinY Unit="MM">5.891302727700116</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="130" UniqueID="{E0797817-CA56-4050-B59C-2DE9E959F932}" Name="成員.130" NameU="Member.130" Master="5">
+					<Text>IP_remove_cdev()</Text>
+					<XForm>
+						<PinX Unit="MM">16.822834647244100</PinX>
+						<PinY Unit="MM">5.724585552407146</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="131" UniqueID="{A08B4A72-FA09-4400-9A73-635DF415CE26}" Name="成員.131" NameU="Member.131" Master="5">
+					<Text>IP_mem_init()</Text>
+					<XForm>
+						<PinX Unit="MM">16.822834647244100</PinX>
+						<PinY Unit="MM">5.557868377114177</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="132" UniqueID="{91B60715-82EF-4129-A5B0-8DF3E2DDF7C4}" Name="成員.132" NameU="Member.132" Master="5">
+					<Text>IP_mem_remove()</Text>
+					<XForm>
+						<PinX Unit="MM">16.822834647244100</PinX>
+						<PinY Unit="MM">5.391151201821208</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="133" UniqueID="{B961DB68-527D-4804-B3BE-ACFB1348BFF5}" Name="成員.133" NameU="Member.133" Master="5">
+					<Text>IP_init()</Text>
+					<XForm>
+						<PinX Unit="MM">16.822834647244100</PinX>
+						<PinY Unit="MM">5.224434026528240</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="134" UniqueID="{B2C805DE-D4DC-4C1B-88B7-D333AF951663}" Name="成員.134" NameU="Member.134" Master="5">
+					<Text>IP_exit()</Text>
+					<XForm>
+						<PinX Unit="MM">16.822834647244100</PinX>
+						<PinY Unit="MM">5.057716851235272</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="153" UniqueID="{423F9221-1D8A-4D19-B3CA-8DDD7A2429E1}" Name="分隔符號.153" NameU="Separator.153" Master="7">
+					<XForm>
+						<PinX Unit="MM">16.822834647244100</PinX>
+						<PinY Unit="MM">4.954673224218709</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="182" UniqueID="{E9C5192B-D83B-41AB-B010-C3936707C26F}" Name="成員.182" NameU="Member.182" Master="5">
+					<Text>myip_BRam_ctrl</Text>
+					<XForm>
+						<PinX Unit="MM">13.673228346456700</PinX>
+						<PinY Unit="MM">4.182003691900734</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="183" UniqueID="{5153A03A-FAD3-4D43-8746-766FEDF416B3}" Name="成員.183" NameU="Member.183" Master="5">
+					<Text>ORG_BRAM_data</Text>
+					<XForm>
+						<PinX Unit="MM">13.673228346456698</PinX>
+						<PinY Unit="MM">4.015286516607765</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="184" UniqueID="{71B99087-D657-474B-94A9-650C10E1D02B}" Name="成員.184" NameU="Member.184" Master="5">
+					<Text>myip</Text>
+					<XForm>
+						<PinX Unit="MM">13.673228346456698</PinX>
+						<PinY Unit="MM">4.348720867193704</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="186" UniqueID="{73EF5788-FA50-4E80-A2C8-9E7F1BC498A6}" Name="成員.186" NameU="Member.186" Master="5">
+					<Text>IP_Driver{}</Text>
+					<XForm>
+						<PinX Unit="MM">16.822834647244100</PinX>
+						<PinY Unit="MM">4.851629597202145</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="187" UniqueID="{7EAFCDCC-C77F-4680-AB8B-59B6743E1F08}" Name="成員.187" NameU="Member.187" Master="5">
+					<Text>reader_struct{}</Text>
+					<XForm>
+						<PinX Unit="MM">16.822834647244100</PinX>
+						<PinY Unit="MM">4.684912421909176</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="188" UniqueID="{4D816E40-A944-46E8-9603-CB323B10B0AF}" Name="成員.188" NameU="Member.188" Master="5">
+					<Text>file_operations IP_fops{}</Text>
+					<XForm>
+						<PinX Unit="MM">16.822834647244100</PinX>
+						<PinY Unit="MM">4.518195246616206</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="189" UniqueID="{D6AB0BD6-CE75-4708-AF21-FB14DC01D7C9}" Name="成員.189" NameU="Member.189" Master="5">
+					<Text>reader_struct{}</Text>
+					<XForm>
+						<PinX Unit="MM">16.881889766929142</PinX>
+						<PinY Unit="MM">3.026877632825956</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="192" UniqueID="{EF4F466A-C28A-43DD-B39C-0B464D177F5B}" Name="成員.192" NameU="Member.192" Master="5">
+					<Text>handle()</Text>
+					<XForm>
+						<PinX Unit="MM">19.893700787401578</PinX>
+						<PinY Unit="MM">6.437687029473953</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="193" UniqueID="{26E81699-6326-4A85-9A51-0B642CA619DB}" Name="成員.193" NameU="Member.193" Master="5">
+					<Text>thread_job()</Text>
+					<XForm>
+						<PinX Unit="MM">19.893700787401578</PinX>
+						<PinY Unit="MM">6.104277933201166</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="96" UniqueID="{34C37D88-ACD7-48A7-8734-CFA99BC91A46}" Name="附註" NameU="Note" Master="13">
+					<Text>FPGA</Text>
+					<XForm>
+						<PinX Unit="MM">13.594488188976380</PinX>
+						<PinY Unit="MM">7.657480314960629</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="98" UniqueID="{93BE3FA0-2400-4C25-97DB-4BD743F82A31}" Name="附註.98" NameU="Note.98" Master="13">
+					<Text>Zedboard Linux</Text>
+					<XForm>
+						<PinX Unit="MM">16.763779527559048</PinX>
+						<PinY Unit="MM">7.657480314960629</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="100" UniqueID="{A9AE0166-30DA-49AE-9326-B2AB757BF7EA}" Name="附註.100" NameU="Note.100" Master="13">
+					<Text>Raspberry Pi 3</Text>
+					<XForm>
+						<PinX Unit="MM">19.854330708661418</PinX>
+						<PinY Unit="MM">7.657480314960629</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>
