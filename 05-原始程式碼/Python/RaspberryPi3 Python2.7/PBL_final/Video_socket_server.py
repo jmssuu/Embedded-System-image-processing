@@ -17,7 +17,7 @@ img=cv2.imread('test_pic.jpg')
 
 def parse_img(img):
 
-    negPath = "img\\"
+    negPath = "img/"
     path = ""
     rand = random.randrange(0,99999999)
 
@@ -86,7 +86,7 @@ class EchoHandler(BaseRequestHandler):
                     out.release()
                     cv2.destroyAllWindows()
                     
-                #parse_img(img)
+                parse_img(img)
             elif "times=" in data:
                 time_str = data.strip("times=")
                 print("get time : {}".format(time_str))
